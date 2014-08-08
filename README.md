@@ -40,16 +40,16 @@ Document Layout
 * Synopsis: Immediately after the title, there should be a synopsis which describes and summarizes your analysis in at most 10 complete sentences.
 * There should be a section titled Data Processing which describes (in words and code) how the data were loaded into R and processed for analysis. In particular, your analysis must start from the raw CSV file containing the data. You cannot do any preprocessing outside the document. If preprocessing is time-consuming you may consider using the cache = TRUE option for certain code chunks.
 * There should be a section titled Results in which your results are presented.
-* You may have other sections in your analysis, but Data Processing and Results are required.
-* The analysis document must have at least one figure containing a plot.
-* Your analyis must have no more than three figures. Figures may have multiple plots in them (i.e. panel plots), but there cannot be more than three figures total.
-* You must show all your code for the work in your analysis document. This may make the document a bit verbose, but that is okay. In general, you should ensure that echo = TRUE for every code chunk (this is the default setting in knitr).
+* You may have other sections in your analysis, but Data Processing and Results are required.  
+* The analysis document must have at least one figure containing a plot.  
+* Your analyis must have no more than three figures. Figures may have multiple plots in them (i.e. panel plots), but there cannot be more than three figures total.  
+* You must show all your code for the work in your analysis document. This may make the document a bit verbose, but that is okay. In general, you should ensure that echo = TRUE for every code chunk (this is the default setting in knitr).  
 
 ## Publishing Your Analysis  
-For this assignment you will need to publish your analysis on RPubs.com. If you do not already have an account, then you will have to create a new account. After you have completed writing your analysis in RStudio, you can publish it to RPubs by doing the following:  
-1. In RStudio, make sure your R Markdown document (.Rmd) document is loaded in the editor
-2. Click the Knit HTML button in the doc toolbar to preview your document.
-3. In the preview window, click the Publish button.  
+For this assignment you will need to publish your analysis on RPubs.com. If you do not already have an account, then you will have to create a new account. After you have completed writing your analysis in RStudio, you can publish it to RPubs by doing the following:    
+1. In RStudio, make sure your R Markdown document (.Rmd) document is loaded in the editor   
+2. Click the Knit HTML button in the doc toolbar to preview your document.   
+3. In the preview window, click the Publish button.    
 	
 	
 Once your document is published to RPubs, you should get a unique URL to that document. Make a note of this URL as you will need it to submit your assignment.
